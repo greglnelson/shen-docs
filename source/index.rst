@@ -15,6 +15,8 @@ Contents:
    applications
    assignments
 
+   vectors
+
 Indices and tables
 ==================
 
