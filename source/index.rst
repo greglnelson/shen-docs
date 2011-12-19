@@ -16,8 +16,10 @@ Contents:
    assignments
    backtracking
    booleans
+   
    comments
    compiler_compiler
+   exceptions
 
    functions
    synonyms
