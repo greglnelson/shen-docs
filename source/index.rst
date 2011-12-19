@@ -16,6 +16,7 @@ Contents:
    assignments
    backtracking
    booleans
+   comments
 
 Indices and tables
 ==================
