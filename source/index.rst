@@ -18,6 +18,9 @@ Contents:
    booleans
    comments
 
+   sequent_calculus
+   vectors
+
 Indices and tables
 ==================
 
