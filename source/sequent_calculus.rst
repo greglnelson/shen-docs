@@ -49,7 +49,7 @@ The use of 3 deduction rules is otiose - only one is needed if a *side condition
   X : colour;)
   colour
 
-Let's suppose we were writing a card game and we want to use lists like [ace spades] [10 hearts] [5 diamonds] [jack clubs] as cards. If we were to enter [5 diamonds] to Shen it would come back with a type error. So we want to define a type card which is the type of all cards. A card is a 2-element list; the first element being a rank and the second a suit. ::
+Let's suppose we were writing a card game and we want to use lists like ``[ace spades] [10 hearts] [5 diamonds] [jack clubs]`` as cards. If we were to enter [5 diamonds] to Shen it would come back with a type error. So we want to define a type card which is the type of all cards. A card is a 2-element list; the first element being a rank and the second a suit. ::
 
   (25+) (datatype rank
   
@@ -85,7 +85,7 @@ Shen permits a shorthand for expressing this type; ::
   ==================
   [Rank Suit] : card;)
 
-Note that semi-colons separate individual goals to be proved; >> is the Shen turnstile |- and commas are used to separate individual formulae in the list of assumptions to the left of >>. Here are some sample inputs. ::
+Note that semi-colons separate individual goals to be proved; ``>>`` is the Shen turnstile ``|-`` and commas are used to separate individual formulae in the list of assumptions to the left of ``>>``. Here are some sample inputs. ::
 
   (21+) [5 spades]
   [5 spades] : card
