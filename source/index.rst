@@ -14,6 +14,7 @@ Contents:
    abstractions
    applications
    assignments
+   backtracking
 
 Indices and tables
 ==================
