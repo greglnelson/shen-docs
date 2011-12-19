@@ -75,7 +75,7 @@ Let's suppose we were writing a card game and we want to use lists like ``[ace s
   [Rank Suit] : card >> P;)
   card
 
-The first rule says that a two-element list can be proved to be of the type *card* provided the first and second elements can be proved to be a *rank* and a *suit* respectively. The second rule says that given any proof in which it is assumed a two element list is a card, we can replace this assumption by the assumptions that the first and second elements are a *rank* and a *suit*. We need both rules to complete the identification of cards with pairs of ranks and suits f we do not use *synonyms* (see left). 
+The first rule says that a two-element list can be proved to be of the type ``card`` provided the first and second elements can be proved to be a ``rank`` and a ``suit`` respectively. The second rule says that given any proof in which it is assumed a two element list is a card, we can replace this assumption by the assumptions that the first and second elements are a ``rank`` and a ``suit``. We need both rules to complete the identification of cards with pairs of ranks and suits f we do not use *synonyms* (see left). 
 
 Shen permits a shorthand for expressing this type; ::
 

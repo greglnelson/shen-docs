@@ -18,6 +18,7 @@ Contents:
    booleans
    comments
 
+   functions
    synonyms
    sequent_calculus
    vectors
