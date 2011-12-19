@@ -16,7 +16,7 @@ Contents:
    assignments
    backtracking
    booleans
-
+   synonyms
    sequent_calculus
    vectors
 
