@@ -17,6 +17,7 @@ Contents:
    backtracking
    booleans
 
+   sequent_calculus
    vectors
 
 Indices and tables
