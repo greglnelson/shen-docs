@@ -19,7 +19,7 @@ The exact form in which the closure is printed is platform dependent.
 
 .. rubric:: Footnotes
 
-.. [#f1] Except in the case of the following functions; *if*, *and*, *or*, *cases*, *freeze*, *let*.
+.. [#f1] Except in the case of the following functions; ``if``, ``and``, ``or``, ``cases``, ``freeze``, ``let``.
 
 .. _closures: http://en.wikipedia.org/wiki/Closure_(computer_science)
 .. _partial applications: http://en.wikipedia.org/wiki/Partial_application
