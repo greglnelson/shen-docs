@@ -20,6 +20,7 @@ Contents:
    comments
    compiler_compiler
    exceptions
+   files
 
    functions
    synonyms
