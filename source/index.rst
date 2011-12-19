@@ -14,6 +14,8 @@ Contents:
    abstractions
    applications
    assignments
+   backtracking
+   booleans
 
    vectors
 
