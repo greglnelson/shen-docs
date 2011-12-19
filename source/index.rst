@@ -17,6 +17,7 @@ Contents:
    backtracking
    booleans
    comments
+   compiler_compiler
 
    functions
    synonyms
