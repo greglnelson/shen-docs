@@ -15,6 +15,7 @@ Contents:
    applications
    assignments
    backtracking
+   booleans
 
 Indices and tables
 ==================
