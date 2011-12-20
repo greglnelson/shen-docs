@@ -23,6 +23,9 @@ Contents:
    files
    functions_defining
    
+   hashing
+   io
+   lazy_eval
    lists
    macros
    metaprogramming
