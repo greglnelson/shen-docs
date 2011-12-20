@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
 
+   numbers
    packages
    prolog
    property_lists
