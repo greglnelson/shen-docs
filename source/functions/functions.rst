@@ -1,4 +1,4 @@
-.. _functions/functions:
+.. _functions:
 
 Functions
 =========
@@ -10,3 +10,4 @@ Contents:
 
    functions_defining
    functions_higher_order
+   functions_pattern_matching
