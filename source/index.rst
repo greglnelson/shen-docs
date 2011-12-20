@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
 
+   tuples
    types
    functions
    synonyms
