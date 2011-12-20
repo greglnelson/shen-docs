@@ -33,6 +33,6 @@ See fast reference on *streams*.
 
 .. rubric:: Detailed Reference
 
-`Shen Official Standard`_
+- `Shen Official Standard`_
 
 .. _Shen Official Standard: http://www.shenlanguage.org/Documentation/shendoc.htm#Streams

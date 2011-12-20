@@ -143,7 +143,7 @@ Semantic actions are attached to grammar rules by following each rule by a ``:=`
 
 .. rubric:: Further Reading
 
-`FPQi p404 and after`_
+- `FPQi p404 and after`_
 
 .. _TDPL parsing: http://en.wikipedia.org/wiki/Top-down_parsing_language
 .. _BNF notation: http://en.wikipedia.org/wiki/Backus%C3%A2%E2%82%AC%E2%80%9CNaur_Form

@@ -21,7 +21,7 @@ The function ``error-to-string`` converts any exception to the string from which
 
 .. rubric:: Detailed Reference
 
-`Shen Official Standard`_
+- `Shen Official Standard`_
 
 .. _exception: http://en.wikipedia.org/wiki/Exception_handling
 .. _Shen Official Standard: http://www.shenlanguage.org/Documentation/shendoc.htm#Error%20Handling

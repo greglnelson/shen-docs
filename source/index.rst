@@ -21,6 +21,7 @@ Contents:
    compiler_compiler
    exceptions
    files
+   functions_defining
    
    lists
    macros
