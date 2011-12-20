@@ -22,6 +22,10 @@ Contents:
    exceptions
    files
 
+   property_lists
+   repl
+   streams
+   strings
    symbols
    tuples
    types
