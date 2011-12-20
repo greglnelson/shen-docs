@@ -1,3 +1,5 @@
+.. _types_functions:
+
 Functions
 =========
 

@@ -1,6 +1,6 @@
-.. _types:
+.. _types_basic:
 
-Types
+Basic
 =====
 
 The basic datatypes and types of Shen are 

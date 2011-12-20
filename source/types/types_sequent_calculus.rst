@@ -1,4 +1,4 @@
-.. _sequent_calculus:
+.. _types_sequent_calculus:
 
 Sequent calculus
 ================

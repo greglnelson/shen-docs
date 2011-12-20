@@ -1,4 +1,4 @@
-.. _synonyms:
+.. _types_synonyms:
 
 Synonyms
 ========

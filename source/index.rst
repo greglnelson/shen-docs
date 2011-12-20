@@ -21,9 +21,7 @@ Contents:
    compiler_compiler
    exceptions
    files
-   functions_defining
-   functions_higher_order
-   
+   functions/functions
    hashing
    io
    lazy_eval
@@ -39,10 +37,7 @@ Contents:
    strings
    symbols
    tuples
-   types
-   functions
-   synonyms
-   sequent_calculus
+   types/types
    vectors
 
 Indices and tables
