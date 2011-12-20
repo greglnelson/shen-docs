@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
 
+   symbols
    tuples
    types
    functions
