@@ -21,7 +21,8 @@ Contents:
    compiler_compiler
    exceptions
    files
-   
+
+   lazy_eval
    lists
    macros
    metaprogramming
