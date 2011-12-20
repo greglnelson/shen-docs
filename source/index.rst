@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
 
+   metaprogramming
    numbers
    packages
    prolog
