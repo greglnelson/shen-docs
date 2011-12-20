@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
    
+   hashing
    io
    lazy_eval
    lists
