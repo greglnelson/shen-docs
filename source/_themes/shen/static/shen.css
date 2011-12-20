@@ -2,6 +2,7 @@
 
 div.document {
     background-color: #fff;
+    margin-top: -20px;
 }
 
 div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
@@ -18,13 +19,14 @@ div.related a {
     color: #444;
 }
 
-p.logo {
+div.sphinxsidebar p.logo {
     text-align: center;
+    padding: 0;
 }
 
 #header {
     text-align: right;
-    padding: 10px 20px 0 0;
+    padding: 5px 20px 0 0;
     background-color: #fff;
     font-size: 14px;
 }
