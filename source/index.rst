@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
    
+   lists
    macros
    metaprogramming
    numbers
