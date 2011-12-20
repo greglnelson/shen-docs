@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
    functions_defining
+   functions_higher_order
    
    hashing
    io
