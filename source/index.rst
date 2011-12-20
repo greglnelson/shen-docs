@@ -22,6 +22,7 @@ Contents:
    exceptions
    files
 
+   types
    functions
    synonyms
    sequent_calculus
