@@ -3,7 +3,7 @@
 Packages
 ========
 
-The polyadic function ``package`` has the form ``(package S L E1 ... En)`` where ::
+The polyadic function ``package`` has the form ``(package S L E1 ... En)`` where
 
 1. ``S`` is a symbol beginning in lowercase which is the name of a package; (e.g ``mypackage``).
 2. ``L`` is a list (possibly empty) of non-variable symbols.
