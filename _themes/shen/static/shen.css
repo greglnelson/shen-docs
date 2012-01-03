@@ -52,6 +52,10 @@ div.related a {
     color: #444;
 }
 
+div.sphinxsidebar h3, div.sphinxsidebar h2 {
+    background-color: #F2F2F6;
+}
+
 div.sphinxsidebar p.logo {
     text-align: center;
     padding: 0;
