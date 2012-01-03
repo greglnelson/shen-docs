@@ -1,4 +1,7 @@
 {%- extends "basic/layout.html" %}
+{%- block sidebarlogo %}
+<p class="logo"><a href="{{ pathto('index') }}"><img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/></a></p>
+{%- endblock %}
 {%- block relbar1 %}{% endblock %}
 {%- block header -%}
 <div id="wrapper"><div id="main">
