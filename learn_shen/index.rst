@@ -19,7 +19,7 @@ Fast track learning is for people who already know functional programming and wa
 
 - Read the `15 minute tutorial for experienced functional programmers`_
 - Use the resources of fast reference on the left for key ideas.
-- Look up the guide for `system functions`_ when needed.
+- Look up the guide for :ref:`system_functions` when needed.
 
 More advanced material dealing with sequent calculus etc. requires deeper study. At the bottom of every *fast reference* precis page, there are a list of references drawn from the *detailed references resources*. This includes
 
@@ -68,7 +68,6 @@ If you want to buy this as a hardcopy then `buy the copy online for £24.50`_
    vectors
 
 .. _15 minute tutorial for experienced functional programmers: http://www.shenlanguage.org/Documentation/Tutorials/Shen-in-15min.htm
-.. _system functions: http://www.shenlanguage.org/Documentation/system.htm
 .. _Functional Programming in Qi: http://www.shenlanguage.org/Documentation/Reference/FPQi/page000.htm
 .. _buy the copy online for £24.50: http://www.fast-print.net/bookshop/277/functional-programming-in-qi-2nd-ed
 
