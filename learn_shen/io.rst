@@ -12,7 +12,7 @@ The function ``output`` is polyadic and permits embedded directives in its first
 3. ~R is a directive to print the corresponding argument as part of the string, printing list structures with round brackets.
 4. ~% is a directive to print a new line.
 
-The function ``make-string`` works as ``output`` except the string is returned without being printed. ``nl`` as a 0 place function prints a new line ansd treturns 0. Followed by a natural number ``n``, ``nl`` prints ``n`` new lines and returns zero.
+The function ``make-string`` works as ``output`` except the string is returned without being printed. ``nl`` as a 0 place function prints a new line and returns 0. Followed by a natural number ``n``, ``nl`` prints ``n`` new lines and returns zero.
 
 The 0 place function ``input`` receives an input an evaluates it. ``lineread`` receives ``n`` inputs and places them in a list. ``input+`` is a type secure version of input. ::
 

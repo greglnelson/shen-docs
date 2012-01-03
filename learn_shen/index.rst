@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+**********
 Learn Shen
-==========
+**********
 
 There are two ways of learning Shen.
 
@@ -70,3 +71,4 @@ If you want to buy this as a hardcopy then `buy the copy online for £24.50`_
 .. _system functions: http://www.shenlanguage.org/Documentation/system.htm
 .. _Functional Programming in Qi: http://www.shenlanguage.org/Documentation/Reference/FPQi/page000.htm
 .. _buy the copy online for £24.50: http://www.fast-print.net/bookshop/277/functional-programming-in-qi-2nd-ed
+

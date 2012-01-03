@@ -1,0 +1,206 @@
+@import url("nature.css");
+
+html, body {
+    height: 100%;
+}
+
+div#wrapper {
+    background-color: #fff;
+    min-height: 100%;
+}
+
+div#main {
+    overflow:auto;
+    padding-bottom: 72px;
+}
+
+div#footer {
+    position: relative;
+    margin-top: -72px;
+    height: 72px;
+    clear: both;
+}
+
+div.footer {
+    background-color: #000;
+}
+
+div.document {
+    background-color: #fff;
+    margin-top: -20px;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+    background-color: #fff;
+}
+
+div.related {
+    color: #444;
+    background-color: #fff;
+    text-shadow: 0 0 0;
+}
+
+div.related a {
+    color: #444;
+}
+
+div.sphinxsidebar p.logo {
+    text-align: center;
+    padding: 0;
+}
+
+#header {
+    text-align: right;
+    padding: 5px 20px 0 0;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+#header a {
+    color: #808080;
+}
+
+.highlights {
+    text-align: center;
+    font-size: 120%;
+}
+
+#download {
+    float: right;
+    margin-top: 40px;
+}
+
+/* From twitter's boilerplate: http://twitter.github.com/bootstrap/ */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+    padding: 5px 14px 6px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    color: #333;
+    font-size: 13px;
+    line-height: normal;
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-transition: 0.1s linear all;
+    -moz-transition: 0.1s linear all;
+    -ms-transition: 0.1s linear all;
+    -o-transition: 0.1s linear all;
+    transition: 0.1s linear all;
+}
+
+.btn:hover {
+    background-position: 0 -15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: 1px dotted #666;
+}
+
+.btn.success {
+  background-color: #57a957;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#62c462), to(#57a957));
+  background-image: -moz-linear-gradient(top, #62c462, #57a957);
+  background-image: -ms-linear-gradient(top, #62c462, #57a957);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #62c462), color-stop(100%, #57a957));
+  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
+  background-image: -o-linear-gradient(top, #62c462, #57a957);
+  background-image: linear-gradient(top, #62c462, #57a957);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#57a957', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #57a957 #57a957 #3d773d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn.success, .btn.success:hover {
+    color: #fff;
+}
+
+form .clearfix {
+  margin-bottom: 18px;
+  zoom: 1;
+}
+
+form .clearfix:before, form .clearfix:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+
+form .clearfix:after {
+  clear: both;
+}
+
+form.support-form {
+    padding: 18px;
+    background-color: #f9f9f9;
+}
+
+form.support-form label {
+    padding-top: 6px;
+    font-size: 13px;
+    line-height: 18px;
+    float: left;
+    width: 330px;
+    text-align: right;
+    color: #404040;
+}
+
+form.support-form input, form.support-form textarea  {
+    display: inline-block;
+    border: 1px solid #ccc;
+    line-height: 18px;
+    padding: 4px;
+    height: 18px;
+    width: 400px;
+}
+
+form.support-form .input {
+  margin-left: 350px;
+}
+
+form.support-form textarea {
+    height: 200px;
+}
+
+form p.info {
+    margin-left: 350px;
+}
+
+form input.btn {
+    height: 30px;
+    margin-left: 350px;
+}
+
+table.docutils tr td, table.docutils tr th {
+    line-height: 18px;
+    padding: 8px;
+    border-bottom: solid 1px #ddd;
+}
+
+table.docutils tr:nth-child(odd) td, table.docutils tr:nth-child(odd) th {
+    background-color: #F9F9F9;
+}
+
+table.latest-news {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
