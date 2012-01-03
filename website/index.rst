@@ -24,4 +24,6 @@ Shen has one of the most powerful type systems within functional programming. Sh
 
 Shen includes sources and is absolutely free for commercial use. It currently runs under CLisp with SBCL, Scheme and Javascript to follow.
 
+.. include:: iris_sponsor.rst.inc
+
 .. |lambda| unicode:: U+03BB .. Lambda

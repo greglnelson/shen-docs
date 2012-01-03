@@ -204,3 +204,8 @@ table.latest-news {
     padding: 10px;
     margin: 10px;
 }
+
+div.iris-sponsor {
+    float: right;
+    clear: both;
+}
