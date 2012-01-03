@@ -30,7 +30,7 @@ Unlike Lisp the quote (') is not used. Entering ``hello`` returns ``hello``, so 
 
 Each input is numbered starting with 0.
 
-An input is repeated by typing **!n** where ``n`` is a natural number. Shen will print the nth input of the session and evaluate it. Typing **!s** where ``s`` is any series of symbols, will cause Shen to print and then evaluate the last input whose main function symbol begins with ``s``. ``%`` works as ``!`` except that the previous input(s) are printed off without being evaluated.
+An input is repeated by typing ``!n`` where **n** is a natural number. Shen will print the nth input of the session and evaluate it. Typing ``!s`` where **s** is any series of symbols, will cause Shen to print and then evaluate the last input whose main function symbol begins with **s**. ``%`` works as ``!`` except that the previous input(s) are printed off without being evaluated.
 
 .. code-block:: shen
 
