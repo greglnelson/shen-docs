@@ -18,11 +18,17 @@ Support
           <div class="input"><input type="text" name="port" /></div>
         </div>
         <div class="clearfix">
-          <label>What platform for Shen are you using? (CLisp, SBCL, Scheme ....) *</label>
+          <label>
+            What platform for Shen are you using? *
+            <span class="help">(CLisp, SBCL, Scheme ....)</span>
+          </label>
           <div class="input"><input type="text" name="platform" /></div>
         </div>
         <div class="clearfix">
-          <label>What operating system are you using? (Windows 7, Linux, OS X ....)</label>
+          <label>
+            What operating system are you using?
+            <span class="help">(Windows 7, Linux, OS X ....)</span>
+          </label>
           <div class="input"><input type="text" name="os" /></div>
         </div>
         <div class="clearfix">

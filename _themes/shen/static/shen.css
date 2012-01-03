@@ -178,7 +178,7 @@ form.support-form label {
     font-size: 13px;
     line-height: 18px;
     float: left;
-    width: 330px;
+    width: 270px;
     text-align: right;
     color: #404040;
 }
@@ -189,24 +189,31 @@ form.support-form input, form.support-form textarea  {
     line-height: 18px;
     padding: 4px;
     height: 18px;
-    width: 400px;
+    width: 360px;
 }
 
 form.support-form .input {
-  margin-left: 350px;
+  margin-left: 310px;
 }
 
 form.support-form textarea {
     height: 200px;
 }
 
+form.support-form span.help {
+    float: right;
+    padding: 5px;
+    color: #888;
+    font-size: 13px;
+}
+
 form p.info {
-    margin-left: 350px;
+    margin-left: 310px;
 }
 
 form input.btn {
     height: 30px;
-    margin-left: 350px;
+    margin-left: 310px;
 }
 
 table.docutils tr td, table.docutils tr th {
