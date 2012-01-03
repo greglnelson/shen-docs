@@ -8,6 +8,10 @@ body, pre {
     background-color: #fafafd;
 }
 
+div.bodywrapper {
+    margin: 0 0 0 180px;
+}
+
 div#wrapper {
     background-color: #fff;
     min-height: 100%;
@@ -50,6 +54,10 @@ div.related {
 
 div.related a {
     color: #444;
+}
+
+div.sphinxsidebar {
+    width: 180px;
 }
 
 div.sphinxsidebar h3, div.sphinxsidebar h2 {
@@ -213,8 +221,8 @@ table.docutils tr:nth-child(odd) td, table.docutils tr:nth-child(odd) th {
 
 table.latest-news {
     float: right;
-    padding: 10px;
-    margin: 10px;
+    padding: 0;
+    margin: 60px 0 24px 24px;
 }
 
 div.iris-sponsor {

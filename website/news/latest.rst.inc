@@ -1,11 +1,11 @@
 .. raw:: html
 
-    <table border="0" cellpadding="5" cellspacing="0" class="latest-news">
+    <table border="0" cellspacing="0" class="latest-news">
       <tr>
         <td align="center"><font size="4">
             <strong>Latest News</strong></font>
           <p><a href="/news/october2011.html" style="text-decoration:none">
-              <font color="#808080"><strong>Shen appears under Steel  Bank Common Lisp</strong></font></a></p>
+              <font color="#808080"><strong>Shen appears under<br/>Steel  Bank Common Lisp</strong></font></a></p>
           <p><img src="/_static/img/news/glossy430.jpg" width="147" height="102"></p>
           <p><a href="/news/october2011.html" style="text-decoration:none">
               <font color="#808080"><strong>Shen port to Javascript project</strong></font></a></p>
