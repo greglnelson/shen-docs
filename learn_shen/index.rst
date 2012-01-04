@@ -17,7 +17,7 @@ Fast Track Learning
 
 Fast track learning is for people who already know functional programming and want to begin programming with Shen. We recommend you do the following.
 
-- Read the `15 minute tutorial for experienced functional programmers`_
+- Read the :ref:`shen_in_15mins` tutorial for experienced functional programmers.
 - Use the resources of fast reference on the left for key ideas.
 - Look up the guide for :ref:`system_functions` when needed.
 
@@ -67,7 +67,6 @@ If you want to buy this as a hardcopy then `buy the copy online for £24.50`_
    types/types
    vectors
 
-.. _15 minute tutorial for experienced functional programmers: http://www.shenlanguage.org/Documentation/Tutorials/Shen-in-15min.htm
 .. _Functional Programming in Qi: http://www.shenlanguage.org/Documentation/Reference/FPQi/page000.htm
 .. _buy the copy online for £24.50: http://www.fast-print.net/bookshop/277/functional-programming-in-qi-2nd-ed
 
