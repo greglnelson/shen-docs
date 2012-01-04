@@ -258,3 +258,7 @@ div#sponsored-by-iris-ltd-engineering-and-services {
 div#sponsored-by-iris-ltd-engineering-and-services h3 {
     font-size: 14px;
 }
+
+div.figure {
+    text-align: center;
+}
