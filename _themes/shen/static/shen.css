@@ -36,6 +36,12 @@ div#footer {
 div.footer {
     background-color: white;
     border-top: 1px dotted #444;
+    color: #aaa;
+}
+
+div.footer a {
+    color: #777;
+    text-decoration: none;
 }
 
 div.document {
