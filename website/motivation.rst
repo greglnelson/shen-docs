@@ -4,7 +4,7 @@
 Motivation
 ##########
 
-Shen began many years ago in 1989 when Dr Mark Tarver was working at the Laboratory for the Foundations of Computer Science at Edinburgh. The original idea was to bring to the Lisp environment many of the advantages of ML; specifically pattern-matching and later type checking. The result of this work was the language *Qi* which won the author the Promising Inventor Award from Stony Brook University in 2003.
+Shen began many years ago in 1989 when Dr. Mark Tarver was working at the Laboratory for the Foundations of Computer Science at Edinburgh. The original idea was to bring to the Lisp environment many of the advantages of ML; specifically pattern-matching and later type checking. The result of this work was the language *Qi* which won the author the Promising Inventor Award from Stony Brook University in 2003.
 
 *Qi* was a ground-breaking langage that went far beyond ML and Haskell in providing type definitions through sequent calculus; a Turing-equivalent notation for defining formal reasoning system of all kinds. *Qi* linked this notation to an inbuilt Prolog for compiling sequent calculus and threw in lazy evaluation on demand, s-expr metaprogramming, a TDPL compiler-compiler and a macro system. The result was an extremely elegant and powerful programming environment.
 
