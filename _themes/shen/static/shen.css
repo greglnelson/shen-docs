@@ -20,7 +20,7 @@ div#wrapper {
 }
 
 div#main {
-    overflow:auto;
+    overflow: visible;
     padding-bottom: 72px;
 }
 
@@ -58,6 +58,10 @@ div.related a {
 
 div.sphinxsidebar {
     width: 180px;
+}
+
+div.sphinxsidebar li.current {
+   background-color: #F2F2F6;
 }
 
 div.sphinxsidebar h3, div.sphinxsidebar h2 {
@@ -226,13 +230,31 @@ table.docutils tr:nth-child(odd) td, table.docutils tr:nth-child(odd) th {
     background-color: #F9F9F9;
 }
 
-table.latest-news {
-    float: right;
-    padding: 0;
-    margin: 60px 0 24px 24px;
+#shen, #news {
+    width: 720px;
+    position: relative;
 }
 
-div.iris-sponsor {
+#shen > h1, #shen > p, #shen > ul, #news > h1, #news > p, #news > ul, #news div.toctree-wrapper {
+    width: 450px;
+    float: left;
+}
+
+#latest-news {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    text-align: center;
+    width: 210px;
+}
+
+div#sponsored-by-iris-ltd-engineering-and-services {
+    margin-top: 24px;
     float: right;
     clear: both;
+    text-align: center;
+}
+
+div#sponsored-by-iris-ltd-engineering-and-services h3 {
+    font-size: 14px;
 }

@@ -4,11 +4,10 @@
 
    <a id="download" class="btn success" href="/Download/download.htm">Download</a>
 
+
 ####
 Shen
 ####
-
-.. include:: news/latest.rst.inc
 
 Shen is a portable functional programming language that offers
 
@@ -24,6 +23,7 @@ Shen has one of the most powerful type systems within functional programming. Sh
 
 Shen includes sources and is absolutely free for commercial use. It currently runs under CLisp with SBCL, Scheme and Javascript to follow.
 
+.. include:: news/latest.rst.inc
 .. include:: iris_sponsor.rst.inc
 
 .. |lambda| unicode:: U+03BB .. Lambda
