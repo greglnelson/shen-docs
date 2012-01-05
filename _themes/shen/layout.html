@@ -17,6 +17,12 @@
 {% if theme_no_bottom_related|tobool %}<div style="height:32px;"></div>{% else %}{{ super() }}{% endif %}
 {%- endblock -%}
 {%- block footer -%}
-{{ super() }}
+  <div class="footer">
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.
+  
+    {%- if show_source and has_source and sourcename %}
+    <a class="show-source" href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow">Show this page's source</a>
+    {%- endif %}
+  </div>
 </div>
 {%- endblock -%}
