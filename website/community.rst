@@ -18,7 +18,7 @@ Community
 | Developer's Repo         | Private repo for developing the Shen platform     |
 |                          | (contact kian.wilcox AT gmail.com).               |
 +--------------------------+---------------------------------------------------+
-|  `2011 Committee`_       |  The people developing Shen                       |
+|  :ref:`2011committee`    |  The people developing Shen                       |
 +--------------------------+---------------------------------------------------+
 
 .. _Online News Group: https://groups.google.com/group/qilang?hl=en
@@ -26,4 +26,3 @@ Community
 .. _J C Grant's Blog Page: http://jng.imagine27.com/articles/all.html
 .. _Klltkr's Blog Page: http://www.klltkr.com
 .. _Github Repository: https://github.com/vasil-sd/shen-libs
-.. _2011 Committee: /2011committee.htm
