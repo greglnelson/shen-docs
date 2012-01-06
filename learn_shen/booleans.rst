@@ -11,7 +11,9 @@ Booleans
 
 ``(cases a b c d true error!)`` is shorthand for ``(if a b (if c d error!))``. If no cases apply an error is returned.
 
-``if``, ``and``, ``or`` and ``cases`` are non-strict in evaluation. ::
+``if``, ``and``, ``or`` and ``cases`` are non-strict in evaluation.
+
+.. code-block:: shen
 
     (1-) (if (= 6 (+ 4 2)) yes no)
     yes

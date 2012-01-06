@@ -3,7 +3,9 @@
 Assignments
 ===========
 
-**Global assignments** are made using ``set`` and the values of the variables recovered using ``value``. ::
+**Global assignments** are made using ``set`` and the values of the variables recovered using ``value``.
+
+.. code-block:: shen
 
     (1-) (set dozen 6)
     6
@@ -20,7 +22,9 @@ Assignments
 
 **Local assignments** are made using ``let``. ``let`` takes three arguments, a variable ``v``, an expression ``e``:sub:`1` and an expression ``e``:sub:`2` and binds ``v`` to the normal form of ``e``:sub:`1` in the evaluation of ``e``:sub:`1`.
 
-``let`` is polyadic; ``(let a b b c d)`` is short for ``(let a b (let b c d))``. ::
+``let`` is polyadic; ``(let a b b c d)`` is short for ``(let a b (let b c d))``.
+
+.. code-block:: shen
 
     (5-) (let X 6 Y 5 (* X Y))
     30

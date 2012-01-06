@@ -5,7 +5,9 @@ Files
 
 The function ``load`` loads a file containing a Shen program using the pathname as a string. ``read-file`` reads the file using Shen syntax conventions. ``(write-to-file f a)`` writes the object ``a`` to the file ``f`` designated by a string, returning ``a``. ``read-file-as-bytelist`` reads the file as a list of 8 bit unsigned bytes.
 
-All files are opened relative to the value for the home directory. The value of this global is changed by the ``cd`` function. ::
+All files are opened relative to the value for the home directory. The value of this global is changed by the ``cd`` function.
+
+.. code-block:: shen
 
     (1-) (load "factorial.shen")
     factorial

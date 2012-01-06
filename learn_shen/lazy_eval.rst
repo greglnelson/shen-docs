@@ -3,13 +3,15 @@
 Lazy evaluation
 ===============
 
-Shen provides on-demand type secure `lazy evaluation`_; the function ``freeze`` freezes a computation returning a lazy object which can be evaluated at will by the function ``thaw``. ::
+Shen provides on-demand type secure `lazy evaluation`_; the function ``freeze`` freezes a computation returning a lazy object which can be evaluated at will by the function ``thaw``.
 
-  (2-) (freeze (factorial 8))
-  #<FUNCTION :LAMBDA NIL (factorial 8)>
+.. code-block:: shen
 
-  (3-) (thaw (freeze (factorial 8)))
-  40320
+    (2-) (freeze (factorial 8))
+    #<FUNCTION :LAMBDA NIL (factorial 8)>
+  
+    (3-) (thaw (freeze (factorial 8)))
+    40320
 
 .. rubric:: Detailed Reference
 

@@ -11,7 +11,9 @@ Shen-YACC is a compiler-compiler based on earlier work by Dr Gyorgy Lajos on his
 YACC as a Recognisor Generator
 ------------------------------
 
-Consider the following grammar. ::
+Consider the following grammar.
+
+.. code-block:: text
 
     <sent> := <np> <vp>
     <np> := <det> <n> | <name>
@@ -21,7 +23,9 @@ Consider the following grammar. ::
     <vp> := <vtrans> <np>
     <vtrans> := likes | chases
 
-In YACC, this grammar would be represented as ::
+In YACC, this grammar would be represented as:
+
+.. code-block:: shen
     
     Shen 2010, copyright (C) 2010 Mark Tarver
     www.lambdassociates.org, version 1.8
@@ -76,7 +80,9 @@ In YACC, this grammar would be represented as ::
 
 If *semantic actions* (i.e instructions on how to process the input) are not included, YACC warns the user and inserts a default semantic action. This default action appends non-terminals and conses terminals to form an output. The spacing is left to the judgement of the programmer, but ;s separate rules. Unlike Shen, Shen-YACC gives no significance to symbols beginning in uppercase (i.e. *Bill* is just a symbol like *cat*, and not a variable). When one of these definitions (e.g. for ``<sent>``) is entered to the top level, it is compiled into Common Lisp by YACC with the message *warning; no semantics in <np> <vp>*.
 
-The compiler generated acts as a recogniser for sentences of the language characterised by this grammar. If it is not a sentence of the language, then the failure object (``fail``) is returned. If the input to the compiler belongs to this language, then (``fail``) is not returned by the compiler and generally the program behaves as an identity function. The compiler is invoked by the higher-order function compile, that receives the name of a YACC function and parses its second input by that function. ::
+The compiler generated acts as a recogniser for sentences of the language characterised by this grammar. If it is not a sentence of the language, then the failure object (``fail``) is returned. If the input to the compiler belongs to this language, then (``fail``) is not returned by the compiler and generally the program behaves as an identity function. The compiler is invoked by the higher-order function compile, that receives the name of a YACC function and parses its second input by that function.
+
+.. code-block:: shen
     
     (10-) (compile <sent> [the cat likes the dog])
     [the cat likes the dog]
@@ -87,7 +93,9 @@ The compiler generated acts as a recogniser for sentences of the language charac
     (12-) (compile <vp> [chases the cat])
     [chases the cat]
 
-Note that names of YACC functions should always be enclosed in angles. YACC is sensitive to left-recursion which will force an infinite regress. YACC code is not type checked, but the code can be tracked just like regular code. Lists are constructed in YACC using ``[…]`` or cons or list or any of the conventional methods. Unlike Shen, the constructor | cannot be used in the syntax of an expansion (i.e. to the left of ``:=``), though it can be used to the right (in a semantic action) to perform consing. However ``[…]`` can be used to the left of ``:=``. ``<bcs>``, below, recognises the inputs belonging to [ b :sub:`m` ][ c :sub:`n` ]. ::
+Note that names of YACC functions should always be enclosed in angles. YACC is sensitive to left-recursion which will force an infinite regress. YACC code is not type checked, but the code can be tracked just like regular code. Lists are constructed in YACC using ``[…]`` or cons or list or any of the conventional methods. Unlike Shen, the constructor | cannot be used in the syntax of an expansion (i.e. to the left of ``:=``), though it can be used to the right (in a semantic action) to perform consing. However ``[…]`` can be used to the left of ``:=``. ``<bcs>``, below, recognises the inputs belonging to [ b :sub:`m` ][ c :sub:`n` ].
+
+.. code-block:: shen
     
     (16-) (defcc <bcs>
     [<bs>] [<cs>];)
@@ -116,7 +124,9 @@ Note that names of YACC functions should always be enclosed in angles. YACC is s
 Semantic Actions in YACC
 ------------------------
     
-Semantic actions are attached to grammar rules by following each rule by a ``:=``. This YACC definition receives a list of *as* and changes them to *bs*. ::
+Semantic actions are attached to grammar rules by following each rule by a ``:=``. This YACC definition receives a list of *as* and changes them to *bs*.
+
+.. code-block:: shen
     
     (20-) (defcc <as>
     a <as> := [b | <as>];
@@ -125,10 +135,12 @@ Semantic actions are attached to grammar rules by following each rule by a ``:=`
     
     (21-) (compile <as> [a a a a a])
     [b b b b b]
-    The first rule says that any input of the form a <as> is to be translated into an output consisting of b consed to the translation of <as>. The syntax of <as> requires that the input be a non-empty list of as. So (compile <as> [a a a]) gives [b b b]. The second rule is the base case.
+
+The first rule says that any input of the form a <as> is to be translated into an output consisting of b consed to the translation of <as>. The syntax of <as> requires that the input be a non-empty list of as. So (compile <as> [a a a]) gives [b b b]. The second rule is the base case.
     
-    As in Shen, round brackets signify function applications and square ones form lists. The following reformulation is an example.
-    
+As in Shen, round brackets signify function applications and square ones form lists. The following reformulation is an example:
+
+.. code-block:: shen
     
     (24-) (defcc <sent>
     <np> <vp> := (question <np> <vp>);)

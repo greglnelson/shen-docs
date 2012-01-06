@@ -8,7 +8,9 @@ Function definitions have the form::
     (define <function name>
     <rules>)
 
-or ::
+or
+
+.. code-block:: shen
 
     (define <function name>
     <signature>
@@ -26,7 +28,9 @@ or
 
 ``<-`` is used in place of ``->`` if backtracking is needed (see *fast reference; backtracking*).
 
-Arguments can be any atom (string, symbol, number, boolean) or lists or vectors of such (see *Functions: pattern matching*). Variables are symbols beginning in uppercase. ::
+Arguments can be any atom (string, symbol, number, boolean) or lists or vectors of such (see *Functions: pattern matching*). Variables are symbols beginning in uppercase.
+
+.. code-block:: shen
 
     (0-) (define likes
     tom dick -> yes

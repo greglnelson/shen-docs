@@ -3,7 +3,9 @@
 Hashing
 =======
 
-``(hash a n)``, where ``a`` is any expression and ``n`` is a natural number, will give the hash value of a within the interval 0 to ``n``. ::
+``(hash a n)``, where ``a`` is any expression and ``n`` is a natural number, will give the hash value of a within the interval 0 to ``n``.
+
+.. code-block:: shen
 
   (27-) (hash abc 10)
   4

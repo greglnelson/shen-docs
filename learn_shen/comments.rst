@@ -3,7 +3,9 @@
 Comments
 ========
 
-Shen follows the C/C++ convention of starting comments with ``\*`` and ending with ``*\``. Comments can include comments and new lines. ::
+Shen follows the C/C++ convention of starting comments with ``\*`` and ending with ``*\``. Comments can include comments and new lines.
+
+.. code-block:: shen
 
     (1-) (* 7 \* This is a comment which is ignored *\6)
     42

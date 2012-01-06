@@ -3,7 +3,9 @@
 Applications
 ============
 
-Applications in Shen are written in prefix form in the manner of Lisp. `Partial applications`_ are supported for nearly all functions and evaluate within Shen to `closures`_. The mode of evaluation is `applicative order evaluation`_ and is strict [#f1]_. ::
+Applications in Shen are written in prefix form in the manner of Lisp. `Partial applications`_ are supported for nearly all functions and evaluate within Shen to `closures`_. The mode of evaluation is `applicative order evaluation`_ and is strict [#f1]_.
+
+.. code-block:: shen
 
     (1-) (+ (* 7 8) 2)
     58

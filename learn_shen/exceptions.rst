@@ -7,7 +7,9 @@ The polyadic function ``error`` has the same formating features as ``output`` (s
 
 The 2-place function ``trap-error`` takes an expression ``e`` as its first argument and a function ``f`` as its second and evaluates ``e``. If an exception is raised from ``e``, the exception is sent as an argument to ``f``.
 
-The function ``error-to-string`` converts any exception to the string from which it was derived. ::
+The function ``error-to-string`` converts any exception to the string from which it was derived.
+
+.. code-block:: shen
 
     (3-) (error "this is an error message, followed by a new line~%")
     this is an error message, followed by a new line

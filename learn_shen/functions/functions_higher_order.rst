@@ -4,7 +4,9 @@ Higher Order Functions
 ======================
 
 Shen supports higher-order functions.
-In all ports of Shen running under variants of Lisp, the above will work. ::
+In all ports of Shen running under variants of Lisp, the above will work.
+
+.. code-block:: shen
 
     (0-) (define foldl 
     F Z [] -> Z

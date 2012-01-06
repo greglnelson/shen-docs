@@ -6,7 +6,9 @@ Abstractions
 Lambda functions in Shen can be written in classical form. ``(lambda X X)`` is the identity function; also written ``(/. X X)``. The latter notation allows a shorthand; 
 ``(lambda X (lambda Y Y))`` can be written ``(/. X Y Y)``.
 
-Abstractions evaluate within Shen to `closures`_; as do `partial applications`_. ::
+Abstractions evaluate within Shen to `closures`_; as do `partial applications`_.
+
+.. code-block:: shen
 
     (1-) (/. X X)
     #<FUNCTION :LAMBDA (X) X>

@@ -11,7 +11,7 @@ Like most modern functional languages, Shen sustains pattern-matching. A Shen pa
 - a string construction using ``@s``
 - a vector construction using ``@v``
 
-. ::
+.. code-block:: shen
 
     (0-) (define rep
     \* replace all occurrences of "Julius Caesar" in a string by "Mark Anthony" *\
