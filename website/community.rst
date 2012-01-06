@@ -7,7 +7,7 @@ Community
 +--------------------------+---------------------------------------------------+
 | `Online News Group`_     | The place for all your questions.                 |
 +--------------------------+---------------------------------------------------+
-| `IRC Chat Room`_         | Where to hang out for all things Shen.            |
+| :ref:`chatroom`          | Where to hang out for all things Shen.            |
 +--------------------------+---------------------------------------------------+
 | `J C Grant's Blog Page`_ | Blog page on various topics including Qi and Shen |
 +--------------------------+---------------------------------------------------+
@@ -22,7 +22,6 @@ Community
 +--------------------------+---------------------------------------------------+
 
 .. _Online News Group: https://groups.google.com/group/qilang?hl=en
-.. _IRC Chat Room: /chatroom.htm
 .. _J C Grant's Blog Page: http://jng.imagine27.com/articles/all.html
 .. _Klltkr's Blog Page: http://www.klltkr.com
 .. _Github Repository: https://github.com/vasil-sd/shen-libs
