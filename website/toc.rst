@@ -4,7 +4,7 @@
    Home <index>
    motivation
    Download <http://www.shenlanguage.org/Download/index.htm>
-   Learn Shen <http://www.shenlanguage.org/Documentation/index.html>
+   Learn Shen <http://www.shenlanguage.org/learn-shen/index.html>
    community
    library
    Donate <http://www.lambdassociates.org/donate.htm>
