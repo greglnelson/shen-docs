@@ -49,6 +49,14 @@ div.footer a.show-source {
     padding-right: 24px;
 }
 
+#shen {
+    padding-top: 48px;
+}
+
+#shen h1 {
+    display: none;
+}
+
 div.document {
     background-color: #fff;
     margin-top: -20px;
