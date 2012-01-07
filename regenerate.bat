@@ -7,6 +7,7 @@ cd ..\learn_shen
 call make clean
 call make html
 cd ..
+rmdir /s /q result
 move website\_build\html result
 move learn_shen\_build\html result\learn-shen
 
