@@ -1,5 +1,5 @@
 echo "Regenerating..."
-
+set PATH=%PATH%;C:\Python27\Scripts
 cd website
 call make clean
 call make html
