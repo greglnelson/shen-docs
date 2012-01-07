@@ -52,6 +52,7 @@ div.footer a.show-source {
 div.document {
     background-color: #fff;
     margin-top: -20px;
+    min-height: 650px;
 }
 
 div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
