@@ -50,7 +50,7 @@ div.footer a.show-source {
 }
 
 #shen {
-    padding-top: 48px;
+    margin-top: 36px;
 }
 
 #shen h1 {
@@ -113,7 +113,6 @@ div.sphinxsidebar p.logo {
 
 #download {
     float: right;
-    margin-top: 40px;
 }
 
 /* From twitter's boilerplate: http://twitter.github.com/bootstrap/ */
@@ -265,7 +264,7 @@ table.docutils tr:nth-child(odd) td, table.docutils tr:nth-child(odd) th {
 #latest-news {
     position: absolute;
     right: 10px;
-    top: 60px;
+    top: 24px;
     text-align: center;
     width: 210px;
 }
