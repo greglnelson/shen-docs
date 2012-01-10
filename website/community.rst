@@ -7,7 +7,7 @@ Community
 +--------------------------+---------------------------------------------------+
 | `Online News Group`_     | The place for all your questions.                 |
 +--------------------------+---------------------------------------------------+
-| :ref:`chatroom`          | Where to hang out for all things Shen.            |
+| :doc:`chatroom`          | Where to hang out for all things Shen.            |
 +--------------------------+---------------------------------------------------+
 | `J C Grant's Blog Page`_ | Blog page on various topics including Qi and Shen |
 +--------------------------+---------------------------------------------------+
@@ -18,7 +18,7 @@ Community
 | Developer's Repo         | Private repo for developing the Shen platform     |
 |                          | (contact kian.wilcox AT gmail.com).               |
 +--------------------------+---------------------------------------------------+
-|  :ref:`2011committee`    |  The people developing Shen                       |
+|  :doc:`2011committee`    |  The people developing Shen                       |
 +--------------------------+---------------------------------------------------+
 
 .. _Online News Group: https://groups.google.com/group/qilang?hl=en

@@ -2,7 +2,7 @@
 
 .. raw:: html
 
-   <a id="download" class="btn success" href="/Download/download.htm">Download</a>
+   <a id="download" class="btn success" href="/download.html">Download</a>
 
 
 ####

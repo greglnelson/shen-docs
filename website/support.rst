@@ -8,7 +8,7 @@ Support
 
 .. raw:: html
 
-      <form action="/sendmail.php" method="post" class="support-form">
+      <form action="/sendmail.php" method="post" class="form">
         <div class="clearfix">
           <label>What version number of Shen are you using? *</label>
           <div class="input"><input type="text" name="version" /></div>

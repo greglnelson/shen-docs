@@ -193,12 +193,12 @@ form .clearfix:after {
   clear: both;
 }
 
-form.support-form {
+form.form {
     padding: 18px;
     background-color: #f9f9f9;
 }
 
-form.support-form label {
+form.form label {
     padding-top: 6px;
     font-size: 13px;
     line-height: 18px;
@@ -208,7 +208,7 @@ form.support-form label {
     color: #404040;
 }
 
-form.support-form input, form.support-form textarea  {
+form.form input, form.form textarea  {
     display: inline-block;
     border: 1px solid #ccc;
     line-height: 18px;
@@ -217,15 +217,22 @@ form.support-form input, form.support-form textarea  {
     width: 360px;
 }
 
-form.support-form .input {
+form.form .input {
   margin-left: 310px;
 }
 
-form.support-form textarea {
+form.form textarea {
     height: 200px;
 }
 
-form.support-form span.help {
+form.form .input input[type=checkbox] {
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+
+form.form span.help {
     float: right;
     padding: 5px;
     color: #888;
@@ -247,8 +254,18 @@ table.docutils tr td, table.docutils tr th {
     border-bottom: solid 1px #ddd;
 }
 
-table.docutils tr:nth-child(odd) td, table.docutils tr:nth-child(odd) th {
+table.docutils tr:nth-child(odd) td {
     background-color: #F9F9F9;
+}
+
+table.docutils thead tr {
+    border-top: solid 1px #ddd;
+}
+
+table.docutils caption {
+    line-height: 18px;
+    padding: 6px;
+    font-weight: bold;
 }
 
 #shen, #news {
@@ -282,4 +299,19 @@ div#sponsored-by-iris-ltd-engineering-and-services h3 {
 
 div.figure {
     text-align: center;
+}
+
+#shen-research-network > p {
+    display: block;
+    clear: both;
+}
+
+#shen-research-network li {
+    float: right;
+    width: 50%;
+}
+
+#download table.docutils{
+    width: 100%;
+    margin-bottom: 48px;
 }

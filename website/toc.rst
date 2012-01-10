@@ -3,7 +3,7 @@
 
    Home <index>
    motivation
-   Download <http://www.shenlanguage.org/Download/index.htm>
+   Download <download_form>
    Learn Shen <http://www.shenlanguage.org/learn-shen/index.html>
    community
    library
