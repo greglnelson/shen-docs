@@ -40,11 +40,11 @@ That's the $free part. You can write your own Shen software and put your own lic
 
 #. The license applies to all the software and all derived software and must appear on that software.
 
-    That means that the license applies to the Shen source code and the Kl source code which comes with the download. You will see that this code carries a copyright on the code. The concept of derivative is explained in US law as follows.
+    That means that the license applies to the Shen source code and the |Kl| source code which comes with the download. You will see that this code carries a copyright on the code. The concept of derivative is explained in US law as follows.
         
     A |left-quot| derivative work |right-quot| is a work based upon one or more pre-existing works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which a work may be recast, transformed, or adapted. A work consisting of editorial revisions, annotations, elaborations, or other modifications which, as a whole, represent an original work of authorship, is a |left-quot| derivative work |right-quot|.
         
-    To this we add that any computable mapping of the Shen source code and the Kl source code to another medium i.e. another language; counts as a derivative work in our understanding, and it is immaterial **whether this mapping is done by a human being or by a computer**. If you map Shen into Javascript by writing a compiler, then the resulting Javascript program carries the same license as the original and that license must appear on the code.  If you retitle some of the functions using a global substitution it is a derivative work. If you copy it out in copperplate using a quill, it is derivative. In other words, the message and not the medium is important.
+    To this we add that any computable mapping of the Shen source code and the |Kl| source code to another medium i.e. another language; counts as a derivative work in our understanding, and it is immaterial **whether this mapping is done by a human being or by a computer**. If you map Shen into Javascript by writing a compiler, then the resulting Javascript program carries the same license as the original and that license must appear on the code.  If you retitle some of the functions using a global substitution it is a derivative work. If you copy it out in copperplate using a quill, it is derivative. In other words, the message and not the medium is important.
 
 #. It is illegal to distribute the software without this license attached to it and use of the software implies agreement with the license as such. It is illegal for anyone who is not the copyright holder to tamper with or change the license.
 
@@ -162,3 +162,4 @@ There are probably more questions than we can anticipate; hence this list will g
    :rtrim:
 .. |right-quot| unicode:: U+201D .. Right Quote
    :ltrim:
+.. |Kl| replace:: Kλ

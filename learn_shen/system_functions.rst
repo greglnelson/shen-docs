@@ -121,7 +121,7 @@ System Functions
     file *o* whose extension is determined by
     the second argument. The second argument may vary
     but "kl" is always supported and
-    generates Kl code. The
+    generates |Kl| code. The
     name of *o* is returned.
 
 
@@ -421,7 +421,7 @@ System Functions
 ``ps`` *[_]*
     
     Receives a symbol denoting a Shen function and
-    prints the Kl source
+    prints the |Kl| source
     code associated with the function.
 
 ``read-file`` *[string --> (list unit)]*
@@ -658,3 +658,5 @@ System Functions
     Less than or equal to.
 
 .. _Shen Official Standard: http://www.shenlanguage.org/Documentation/Reference/shendoc.htm
+
+.. |Kl| replace:: Kλ

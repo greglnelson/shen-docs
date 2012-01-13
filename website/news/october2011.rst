@@ -61,18 +61,18 @@ Work on a Port to Javascript; LLVM to follow
 *Kian Wilcox is directing the port of Shen to Javascript* and runs the
 private development repo for porting Shen.
 
-Shen is written in a low level Lisp called Kl, which compiles all of
+Shen is written in a low level Lisp called |Kl| , which compiles all of
 Shen into a language with 45 primitive functions. It is this 'reduced
 instruction set' that makes Shen so portable.
 
-However the spec for Kl calls for tail call optimisation and Lisp-like
+However the spec for |Kl| calls for tail call optimisation and Lisp-like
 symbols which poses a challenge for platforms which do not support
 these features. Here Kian explains online what he is doing in his
 Javascript port.
 
-*"Much of the work necessary for converting to Clojure or Python (or any other non-TCO language) is being done as a pass over Kl right now in my JS port. Once this is finalized, it should be relatively easy to port the transformed Kl code to any architecture that supports exceptions or labels.*
+*"Much of the work necessary for converting to Clojure or Python (or any other non-TCO language) is being done as a pass over* |Kl| *right now in my JS port. Once this is finalized, it should be relatively easy to port the transformed* |Kl| *code to any architecture that supports exceptions or labels.*
 
-*In addition to translating the 40 something primitives [of Kl], you [normally] need to implement lisp-like symbols in a dual namespace and tail call optimization.  After I've finished my work porting to JavaScript, and then next to the LLVM, you will hopefully not need to do either of the latter - there should exist Kl->Kl source translations that handle this in the Shen layer for you."*
+*In addition to translating the 40 something primitives [of* |Kl| *], you [normally] need to implement lisp-like symbols in a dual namespace and tail call optimization.  After I've finished my work porting to JavaScript, and then next to the LLVM, you will hopefully not need to do either of the latter - there should exist* |Kl| -> |Kl| *source translations that handle this in the Shen layer for you."*
 
 SBCL Port to Appear this Month
 ==============================
@@ -91,3 +91,5 @@ Shen 2.0 to Acquire E notation
 *Vasil Diadov is implementing e notation for Shen* which will feature
 in Shen 2.0 and will be the first upgrade to the spec since the 23rd
 September release. This release should appear in November.
+
+.. |Kl| replace:: Kλ
