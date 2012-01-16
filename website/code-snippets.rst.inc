@@ -53,6 +53,7 @@ Random Code Snippets
           _ _ _ _ _ -> [])
 
         (define depth
+        \* Depth-searches a path from State to Goal given the Successors or fails if no such path can be found *\	
           {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A)}
           State Successors Goal? Fail? -> (d' [State] Successors Goal? Fail? []))
 
