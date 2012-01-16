@@ -283,7 +283,7 @@ Shen is like Hope in requiring explicit types to be attached to functions. It su
     
     (52+) (define swap
     {(A * B) --> (B * A)}
-    (@P X Y) -> (@p Y X))
+    (@p X Y) -> (@p Y X))
     swap : ((A * B) --> (B * A))
 
 
