@@ -70,7 +70,7 @@ class ShenLexer(RegexLexer):
             (r'"(\\\\|\\"|[^"])*"', String),
 
             # Comments \* ... *\
-            (r'\\\*.*\*\\', Comment.Multiline),
+            (r'(?ms)\\\*.*?\*\\', Comment.Multiline),
             (r'(?ms)\{.*?\}', Keyword.Type),
 
             # whitespaces
