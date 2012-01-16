@@ -67,7 +67,7 @@ class ShenLexer(RegexLexer):
             (r'\^', Generic.Prompt),
 
             # strings
-            (r'"(\\\\|\\"|[^"])*"', String),
+            (r'(?ms)"(\\\\|\\"|[^"])*"', String),
 
             # Comments \* ... *\
             (r'(?ms)\\\*.*?\*\\', Comment.Multiline),
