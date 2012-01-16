@@ -66,9 +66,12 @@ class ShenLexer(RegexLexer):
             (r'^\[RESULT:\] ', Generic.Prompt),
             (r'\^', Generic.Prompt),
 
+            # strings
+            (r'"(\\\\|\\"|[^"])*"', String),
+
             # Comments \* ... *\
             (r'\\\*.*\*\\', Comment.Multiline),
-            (r'\{.*\}', Keyword.Type),
+            (r'(?ms)\{.*?\}', Keyword.Type),
 
             # whitespaces
             (r'\s+', Whitespace),
@@ -76,9 +79,6 @@ class ShenLexer(RegexLexer):
             # numbers
             (r'[+-]*\d+\.\d+(e-?\d+)?', Number.Float),
             (r'[+-]*\d+', Number.Integer),
-
-            # strings
-            (r'"(\\\\|\\"|[^"])*"', String),
 
             # special operators
             (r'@(p|s|v)', Operator),

@@ -43,7 +43,8 @@ Random Code Snippets
     .. code-block:: shen
    
         (define d'
-          {(list A) --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A) --> (list A)}
+          {(list A) --> (A --> (list A)) --> (A --> boolean)
+                    --> (A --> boolean) --> (list A) --> (list A)}
           [S | _] _ G? _ P -> (reverse [S | P]) where (G? S)
           [S | _] _ _ F? _ -> []                where (F? S)
           [S | _] Succ G? F? P <- (fail-if empty?
