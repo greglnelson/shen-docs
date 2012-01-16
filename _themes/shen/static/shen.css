@@ -111,7 +111,7 @@ div.sphinxsidebar p.logo {
     font-size: 120%;
 }
 
-#download {
+a#download {
     float: right;
 }
 
@@ -278,15 +278,7 @@ table.docutils caption {
     float: left;
 }
 
-#latest-news {
-    position: absolute;
-    right: 10px;
-    top: 24px;
-    text-align: center;
-    width: 210px;
-}
-
-div#sponsored-by-iris-ltd-engineering-and-services {
+div.iris-sponsor {
     margin-top: 24px;
     float: right;
     clear: both;
