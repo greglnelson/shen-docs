@@ -34,31 +34,29 @@ Random Code Snippets
                              []))
 
         (for [0 (+ 1) (= 10)] print)
-        \* prints: 01234567890 *\
+        [OUT:] 01234567890
         
         (filter [0 (+ 1) (= 100)]
                 (/. X (integer? (/ X 3))))
-        \* results in: [0 3 6 9 12 15 18 21 24 27 30 42... etc] *\
+        [RESULT:] [0 3 6 9 12 15 18 21 24 27 30 42... etc]
 
     .. code-block:: shen
    
         (define d'
-          {(list A) --> (A --> (list A)) --> (A --> boolean)
-                    --> (A --> boolean) --> (list A) --> (list A)}
+          {(list A) --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A) --> (list A)}
           [S | _] _ G? _ P -> (reverse [S | P]) where (G? S)
-          [S | _] _ _ F? _ -> []                      where (F? S)
+          [S | _] _ _ F? _ -> []                where (F? S)
           [S | _] Succ G? F? P <- (fail-if empty?
                                            (d' (Succ S) Succ G? F? [S | P]))
           [_ | S] Succ G? F? P -> (d' S Succ G? F? P)
           _ _ _ _ _ -> [])
 
         (define depth
-          {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean)
-             --> (list A)}
+          {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A)}
           State Successors Goal? Fail? -> (d' [State] Successors Goal? Fail? []))
 
         \* Give me a path from 4 to 27 by adding 3, 4 or 5. *\
         
         (depth 4 (/. X [(+ X 3) (+ X 4) (+ X 5)])
                  (= 27) (/. X (> X 27)))
-        \* results in: [4 7 10 13 16 19 22 27] : (list number) *\
+        [RESULT:] [4 7 10 13 16 19 22 27] : (list number)
