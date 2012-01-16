@@ -17,9 +17,9 @@ For clarity, these rules are organised into datatypes usually named after the ty
     ____________
     green : colour;
   
-  In Shen ...
+In Shen ...
   
-  .. code-block:: shen
+.. code-block:: shen
   
     (20+) (datatype colour
   

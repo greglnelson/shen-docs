@@ -3,7 +3,9 @@
 Defining Functions
 ==================
 
-Function definitions have the form::
+Function definitions have the form
+
+.. code-block:: shen
 
     (define <function name>
     <rules>)
