@@ -42,6 +42,11 @@ Random Code Snippets
 
     .. code-block:: shen
    
+	(define depth
+        \* Depth-searches a path from State to Goal given the Successors or fails if no such path can be found *\	
+          {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A)}
+          State Successors Goal? Fail? -> (d' [State] Successors Goal? Fail? []))
+
         (define d'
           {(list A) --> (A --> (list A)) --> (A --> boolean)
                     --> (A --> boolean) --> (list A) --> (list A)}
@@ -52,10 +57,6 @@ Random Code Snippets
           [_ | S] Succ G? F? P -> (d' S Succ G? F? P)
           _ _ _ _ _ -> [])
 
-        (define depth
-        \* Depth-searches a path from State to Goal given the Successors or fails if no such path can be found *\	
-          {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A)}
-          State Successors Goal? Fail? -> (d' [State] Successors Goal? Fail? []))
 
         \* Give me a path from 4 to 27 by adding 3, 4 or 5. *\
         
