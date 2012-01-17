@@ -4,7 +4,7 @@ html, body {
     height: 100%;
 }
 
-body, pre {
+body {
     background-color: #fafafd;
 }
 
@@ -332,7 +332,7 @@ div.figure {
 }
 
 /* homepage snippets */
-#random-code-snippets .code-snippets pre {
+.code-snippets pre {
     overflow: auto;
     max-height: 200px;
 }
@@ -345,4 +345,13 @@ div.highlight-shen span.gd {
 
 div.highlight-shen span.ge {
     color: #666;
+    font-style: normal;
+}
+
+div.highlight-shen span.ss {
+    font-style: normal;
+}
+
+div.highlight-shen span.o {
+    font-weight: bold;
 }
