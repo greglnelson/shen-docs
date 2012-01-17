@@ -307,3 +307,15 @@ div.figure {
     width: 100%;
     margin-bottom: 48px;
 }
+
+/* homepage snippets */
+#random-code-snippets .code-snippets pre {
+    overflow: auto;
+    max-height: 200px;
+}
+
+/* Syntax Highlighting */
+
+div.highlight-shen span.gd {
+    display: none;
+}

@@ -19,45 +19,57 @@ Random Code Snippets
     
     .. code-block:: shen
 
-        (define super
-          [X S E] P F Y -> (if (E X)
-                               Y
-                               (F (P X) (super [(S X) S E] P F Y))))
+        (0-) (define super
+               [Value Succ End] Action Combine Zero ->
+                 (if (End Value)
+                     Zero
+                     (Combine (Action Value)
+                              (super [(Succ Value) Succ End]
+                                     Action Combine Zero))))
+        @{super}@
         
-        (define for
-          Stream P -> (super Stream P do 0))
+        (1-) (define for
+               Stream Action -> (super Stream Action do 0))
+        @{for}@
 
-        (define filter
-          Stream P -> (super Stream
-                             (/. X (if (P X) [X] []))
-                             append
-                             []))
+        (2-) (define filter
+               Stream Condition ->
+                 (super Stream
+                        (/. Val (if (Condition Val) [Val] []))
+                        append
+                        []))
+        @{filter}@
 
-        (for [0 (+ 1) (= 10)] print)
-        [OUT:] 01234567890
+        (3-) (for [0 (+ 1) (= 10)] print)
+        #{0123456789}#@{0}@
         
-        (filter [0 (+ 1) (= 100)]
-                (/. X (integer? (/ X 3))))
-        [RESULT:] [0 3 6 9 12 15 18 21 24 27 30 42... etc]
+        (4-) (filter [0 (+ 1) (= 100)]
+                     (/. X (integer? (/ X 3))))
+        @{[0 3 6 9 12 15 18 21 24 27 30 42... etc]}@
 
     .. code-block:: shen
    
-        (define d'
-          {(list A) --> (A --> (list A)) --> (A --> boolean)
-                    --> (A --> boolean) --> (list A) --> (list A)}
-          [S | _] _ G? _ P -> (reverse [S | P]) where (G? S)
-          [S | _] _ _ F? _ -> []                where (F? S)
-          [S | _] Succ G? F? P <- (fail-if empty?
-                                           (d' (Succ S) Succ G? F? [S | P]))
-          [_ | S] Succ G? F? P -> (d' S Succ G? F? P)
-          _ _ _ _ _ -> [])
+        (0+) (define d'
+               {(list A) --> (A --> (list A)) --> (A --> boolean)
+                         --> (A --> boolean) --> (list A) --> (list A)}
+               [S | _] _ G? _ P -> (reverse [S | P]) where (G? S)
+               [S | _] _ _ F? _ -> []                where (F? S)
+               [S | _] Succ G? F? P <- (fail-if empty?
+                                                (d' (Succ S) Succ G? F? [S | P]))
+               [_ | S] Succ G? F? P -> (d' S Succ G? F? P)
+               _ _ _ _ _ -> [])
+        @{d' : ((list A) --> ((A --> (list A)) --> ((A --> boolean)
+                       --> ((A --> boolean) --> ((list A) --> (list A))))))}@
 
-        (define depth
-          {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean) --> (list A)}
-          State Successors Goal? Fail? -> (d' [State] Successors Goal? Fail? []))
+        (1+) (define depth
+               {A --> (A --> (list A)) --> (A --> boolean) --> (A --> boolean)
+                  --> (list A)}
+               State Successors Goal? Fail? ->
+                 (d' [State] Successors Goal? Fail? []))
+        @{depth : (A --> ((A --> (list A)) --> ((A --> boolean)
+                   --> ((A --> boolean) --> (list A)))))}@
 
-        \* Give me a path from 4 to 27 by adding 3, 4 or 5. *\
-        
+        (2+) \* Give me a path from 4 to 27 by adding 3, 4 or 5. *\
         (depth 4 (/. X [(+ X 3) (+ X 4) (+ X 5)])
                  (= 27) (/. X (> X 27)))
-        [RESULT:] [4 7 10 13 16 19 22 27] : (list number)
+        @{[4 7 10 13 16 19 22 27] : (list number)}

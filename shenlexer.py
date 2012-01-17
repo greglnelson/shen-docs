@@ -1,8 +1,8 @@
 import re
 
-from pygments.lexer import RegexLexer
+from pygments.lexer import RegexLexer, bygroups
 from pygments.token import Comment, String, Punctuation, Keyword, Name, \
-    Operator, Number, Text, Generic, Whitespace
+    Operator, Number, Text, Generic, Whitespace, Literal
 
 
 class ShenLexer(RegexLexer):
@@ -62,9 +62,11 @@ class ShenLexer(RegexLexer):
         'root' : [
             # Repl interactive
             (r'^\(\d+[+-]\) ', Generic.Prompt),
-            (r'^\[OUT:\] ', Generic.Prompt),
-            (r'^\[RESULT:\] ', Generic.Prompt),
-            (r'\^', Generic.Prompt),
+            (r'(?ms)(@\{)(.*?)(}@)',
+             bygroups(Generic.Deleted, Generic.Emph, Generic.Deleted)),
+            (r'(?ms)(#\{)(.*?)(}#)',
+             bygroups(Generic.Deleted, Generic.Output, Generic.Deleted)),
+            (r'\^$', Generic.Prompt),
 
             # strings
             (r'(?ms)"(\\\\|\\"|[^"])*"', String),
