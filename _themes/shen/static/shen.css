@@ -95,6 +95,12 @@ div.sphinxsidebar p.logo {
     margin-bottom: 36px;
 }
 
+div.sphinxsidebar p.logo em {
+    color: #000;
+    display: block;
+    margin-top: 6px;
+}
+
 #header {
     text-align: right;
     padding: 5px 20px 0 0;
