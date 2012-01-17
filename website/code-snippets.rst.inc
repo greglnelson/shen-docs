@@ -74,4 +74,4 @@ Random Code Snippets
         (2+) \* Give me a path from 4 to 27 by adding 3, 4 or 5. *\
         (depth 4 (/. X [(+ X 3) (+ X 4) (+ X 5)])
                  (= 27) (/. X (> X 27)))
-        @{[4 7 10 13 16 19 22 27] : (list number)}
+        @{[4 7 10 13 16 19 22 27] : (list number)}@

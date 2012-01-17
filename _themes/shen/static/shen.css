@@ -319,3 +319,7 @@ div.figure {
 div.highlight-shen span.gd {
     display: none;
 }
+
+div.highlight-shen span.ge {
+    color: #666;
+}
