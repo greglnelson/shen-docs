@@ -40,5 +40,5 @@ Support
 
         <p class="info">* This information will be in the credits when Shen starts.</p>
 
-        <input type="submit" value="Submit" class="btn success" />
+        <input type="submit" value="Submit" class="btn primary" />
       </form>
