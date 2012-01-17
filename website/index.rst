@@ -1,9 +1,5 @@
 .. title:: Home
 
-.. raw:: html
-
-   <a id="download" class="btn success" href="/download.html">Download</a>
-
 ####
 Shen
 ####

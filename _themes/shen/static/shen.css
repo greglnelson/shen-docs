@@ -96,6 +96,8 @@ div.sphinxsidebar p.logo {
 }
 
 div.sphinxsidebar p.logo em {
+    font-family: 'Times New Roman';
+    font-size: 1.1em;
     color: #000;
     display: block;
     margin-top: 6px;
@@ -108,17 +110,13 @@ div.sphinxsidebar p.logo em {
     font-size: 14px;
 }
 
-#header a {
+#header a span {
     color: #808080;
 }
 
 .highlights {
     text-align: center;
     font-size: 120%;
-}
-
-a#download {
-    float: right;
 }
 
 /* From twitter's boilerplate: http://twitter.github.com/bootstrap/ */
@@ -308,8 +306,9 @@ div.iris-sponsor {
     text-align: center;
 }
 
-div#sponsored-by-iris-ltd-engineering-and-services h3 {
-    font-size: 14px;
+div.iris-sponsor p, div.iris-sponsor a {
+    float: right;
+    margin-right: 6px;
 }
 
 div.figure {
