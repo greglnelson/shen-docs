@@ -73,6 +73,7 @@ class ShenLexer(RegexLexer):
 
             # Comments \* ... *\
             (r'(?ms)\\\*.*?\*\\', Comment.Multiline),
+            (r'-->', Operator), # Type declarations
             (r'(?ms)\{.*?\}', Keyword.Type),
 
             # whitespaces
@@ -85,6 +86,7 @@ class ShenLexer(RegexLexer):
             # special operators
             (r'@(p|s|v)', Operator),
             (r'\|', Operator),
+            (r'->', Operator), # Pattern matchinb
 
             # highlight the keywords
             (_multi_escape(keywords), Keyword),
