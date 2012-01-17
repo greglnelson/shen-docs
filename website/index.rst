@@ -22,7 +22,7 @@ Shen
     
     Shen has one of the most powerful type systems within functional programming. Shen runs under a reduced instruction Lisp and is designed for portability. The word 'Shen' is Chinese for *spirit* and our motto reflects our desire to liberate our work to live under many platforms.
     
-    Shen includes sources and is absolutely free for commercial use. It currently runs under CLisp with SBCL, Scheme and Javascript to follow.
+    Shen includes sources and is absolutely free for commercial use. It currently runs under CLisp and SBCL, Scheme and Javascript to follow.
 
 
 .. include:: code-snippets.rst.inc
