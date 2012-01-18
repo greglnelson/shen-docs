@@ -3,7 +3,7 @@
 Shen in 15 minutes
 ==================
 
-The Shen top level is a read-evaluate-print loop as in all functional languages. When you start it up, you get something this (depending on release and platform).
+The Shen top level is a read-evaluate-print loop as in all functional languages. When you start it up, you get something like this (depending on release and platform).
 
 .. code-block:: shen
 
@@ -128,7 +128,7 @@ A list begins with a ``[`` and ends with a ``]``. Spaces seperate items. cons, h
     (21-) [1 2 | [3]]
     [1 2 3]
 
-Suppose we have to define a function f that, if it receives 1 returns 0 and if it returns 0 returns 1. In Shen this appears as a series of rewrite rules. If all rules fail an error is raised.
+Suppose we have to define a function f that, if it receives 1 returns 0 and if it receives 0 returns 1. In Shen this appears as a series of rewrite rules. If all rules fail an error is raised.
 
 .. code-block:: shen
 
