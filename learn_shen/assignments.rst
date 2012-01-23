@@ -20,7 +20,7 @@ Assignments
     true
 
 
-**Local assignments** are made using ``let``. ``let`` takes three arguments, a variable ``v``, an expression ``e``:sub:`1` and an expression ``e``:sub:`2` and binds ``v`` to the normal form of ``e``:sub:`1` in the evaluation of ``e``:sub:`1`.
+**Local assignments** are made using ``let``. ``let`` takes three arguments, a variable ``v``, an expression ``e``:sub:`1` and an expression ``e``:sub:`2` and binds ``v`` to the normal form of ``e``:sub:`1` in the evaluation of ``e``:sub:`2`.
 
 ``let`` is polyadic; ``(let a b b c d)`` is short for ``(let a b (let b c d))``.
 
